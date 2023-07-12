@@ -1,5 +1,5 @@
 // let var const
-
+"use strict"
 // var
 var x=10            // declaration
 x=50                // reassign
@@ -42,7 +42,7 @@ const outCon = 'Out Cons!'
 outer = 'Simple out!'
 {
     console.log(outer)
-    inner = 'Simple In!'        //By Default global scope is assigned
+    inner = 'Simple In!'        //By Default global scope is assigned --> untill no "use strict" 
     console.log(inner)          
 }
 console.log(inner)

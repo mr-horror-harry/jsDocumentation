@@ -5,7 +5,7 @@ console.log("Service1 Started!")
 
 fetchData = (email, password) => {
     setTimeout( ()=>{
-        console.log("Data is fetched and is ready!")
+        console.log("Server1 Data is fetched and is ready!")
         return email
     }, 3000)            // Say time to fetch data form DB is 3secs
 }
@@ -46,7 +46,7 @@ const selectData = (mail, pass, callback) => {
 }
 
 const data = selectData("qwerty@gmail.com", "123", ()=>{
-
+    console.log("qwerty@gmail.com")
 })
 
 console.log('Server3 Closed!');

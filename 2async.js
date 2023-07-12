@@ -12,6 +12,6 @@ setTimeout(() => {
     setTimeout( () => {
         console.log("Im third!")
     }, 3000)
-}, 1000);
+}, 1000)
 
 console.log("Im fourth!")
