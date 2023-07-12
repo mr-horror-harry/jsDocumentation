@@ -29,4 +29,25 @@ const cust = retrieveData("dbservices@gmail.com", "abcdefg")
 console.log("MailId is: ", cust)
 
 
-console.log("Service2 closed!")
+console.log("Service2 closed!\n\n\n")
+
+
+// Solution to the error using call back
+console.log('Server3 Started!')
+
+const selectData = (mail, pass, callback) => {
+
+    console.log("Data request sent...")
+    setTimeout(() => {
+        
+        callback("Mailid: " + mail)
+
+    }, 2000);
+}
+
+const data = selectData("qwerty@gmail.com", "123", ()=>{
+
+})
+
+console.log('Server3 Closed!');
+
