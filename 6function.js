@@ -30,7 +30,6 @@ output2(user);                      // Function call
 })();
 
 
-
 // Callback function
 setTimeout(() => {
     console.log("I'm called back! after 2secs")

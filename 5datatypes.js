@@ -35,7 +35,7 @@ console.log( "7) " + val + " : " + typeof val)
 let x = 'Hi buds!'
 console.log( "8) " + x*5 + " : " + (typeof x/5) )        // Not A Number --> datatype
 
-// Note: "+" don't return NaN   ∵('+' supports string conacat implicit typecast)
+// Note: "+" don't return NaN   ∵('+' supports string concat implicit typecast)
 
 //BigInt datatype
 let big1 = 9856312457896325487854254887528765n      // n --> explicit notation
@@ -44,6 +44,6 @@ console.log( "9) " + big1 + " : " + typeof big1 + " & " + big2 + " : " + typeof 
 
 //Object datatype: {} --> notation of js objects
 let numObj=100
-console.log("9) " + typeof Math)
+console.log("10) " + typeof Math)
 console.log(typeof numObj + " " + typeof {numObj})
-console.log(typeof null)
+console.log(typeof null) 
