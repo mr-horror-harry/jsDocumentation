@@ -33,7 +33,7 @@ console.log( "7) " + val + " : " + typeof val)
 // Note: Both undefined and null seems same but are completely different
 
 let x = 'Hi buds!'
-console.log( "8) " + x*5 + " : " + (typeof x/5) )        // Not A Number --> datatype
+console.log( "8) " + x*5 + " : " + (typeof x/5) )        // x: Not A Number --> datatype
 
 // Note: "+" don't return NaN   ∵('+' supports string concat implicit typecast)
 

@@ -6,7 +6,7 @@
 console.log(x/y);       // implicit typecast
 console.log(Number("360")/9);      // explicit typecast
 
-// Nan for typecast --> implicit & explict typecast
+// NaN for typecast --> implicit & explict typecast
 console.log("369i"/3)
 console.log(Number("369!"))
 
